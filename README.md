@@ -6,6 +6,6 @@ Link: https://39mbs.csb.app/
 
 ## Features
 
-- Click on a food category to get a list of food items with its origin and rating
-- Made with React.js
+- Clicking on a food category gets a list of food items with its origin and rating
+- The Application has been made using ReactJS.
 
