@@ -1,15 +1,15 @@
 @import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
 
 :root {
-  --background: rgb(238, 104, 64);
-  --text: rgb(136, 179, 97);
+  --background: rgb(235, 113, 76);
+  --text: rgb(162, 209, 115);
   --grey: rgb(230, 255, 190);
   --border: rgb(46, 46, 46);
 }
 
 * {
-  margin: 0;
-  padding: 0;
+  margin: 10;
+  padding: 10;
   box-sizing: border-box;
   background-color: var(--background);
 }
@@ -18,14 +18,14 @@
   display: flex;
   flex-direction: column;
   text-align: center;
-  max-width: 700px;
+  max-width: 750px;
   margin: auto;
-  min-height: 100vh;
+  min-height: 90vh;
   font-family: "Roboto", sans-serif;
 }
 
 header {
-  margin: 2rem;
+  margin: 3rem;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -37,7 +37,7 @@ h1 {
 }
 
 main {
-  margin: 1rem;
+  margin: 1.5rem;
   display: grid;
   place-items: center;
 }
@@ -48,39 +48,30 @@ p.about {
   text-align: left;
 }
 
-.genreList {
+.genreLists {
   display: flex;
   justify-content: flex-start;
   align-items: flex-start;
 }
 
-/* hr {
-  display: block;
-  margin-block-start: 0.5rem;
-  margin-block-end: 0.5rem;
-  overflow: hidden;
-  border: 0.01rem solid var(--text);
-  opacity: 0.4;
-  border-style: inset;
-} */
 
-.genreList span {
+.genreLists span {
   margin: 0 1rem 1rem 0;
   padding: 0.5rem;
   font-size: 0.8rem;
-  border: 1px solid var(--border);
+  border: 2px solid var(--border);
   border-radius: 0.2rem;
   background-color: var(--grey);
   cursor: pointer;
 }
 
-.showFood {
+.showFoodItems {
   display: flex;
   justify-content: flex-start;
   align-items: center;
 }
 
-.showFood li {
+.showFoodItems li {
   list-style-type: none;
   text-align: left;
   width: 300px;
